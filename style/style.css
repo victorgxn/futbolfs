@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Estilo personalizado para la tabla */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.custom-table img {
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 50%;
+}
+
+.custom-table button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #343a40;
+  background-color: #343a40;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* EQUIPO CSS*/
+
+.equipo-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.partido-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.jugadores-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.jugador-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.platform-container {
+  margin-top: 20px;
+}
+
+.platform-img {
+  width: 50px;
+  /* Tamaño fijo para todas las imágenes de plataforma */
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.center-text-fields {
+  text-align: center;
+}
+
+.equipo-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jugador-card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.jugador-card:hover {
+  transform: scale(1.05);
+}
+
+.platform-img:hover {
+  transform: scale(1.05);
+}
+
+.jugador-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Estilo personalizado para las líneas horizontales */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #343a40;
+  /* Color de fondo de la línea */
+  margin: 20px 0;
+  /* Margen superior e inferior */
+}
